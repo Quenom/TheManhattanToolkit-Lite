@@ -1,0 +1,107 @@
+(footprint "Pad3x3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD rectangular pad as test Point, square 3.0mm side length")
+	(tags "test point SMD pad rectangle square")
+	(property "Reference" "REF**"
+		(at 0 -2.398 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "273dc4eb-0cab-4ff8-bb51-191293a460c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pad3x3"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f07474a8-b52e-46a8-80dc-ccc587e46b00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95505f69-dee9-420a-ad28-0b5848416012")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9bdb2ab-3bcb-467c-9fd0-a034babbcca8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0 0)
+		(end 0 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "169f9869-cde7-4aad-84b7-d4a80c7a4cee")
+	)
+	(fp_line
+		(start 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09175a05-de32-4bd9-b090-372ea2dcecae")
+	)
+	(fp_line
+		(start 3 3)
+		(end 0 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a78ed5b-c3d6-4f57-b235-208025568fe1")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58eb260b-60ed-45ff-b76a-b5c0b840d078")
+	)
+	(pad "1" smd roundrect
+		(at 1.5 1.5)
+		(size 3 3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "8781d3ce-3332-43f1-991f-74843c3c1569")
+	)
+	(embedded_fonts no)
+)
